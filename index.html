@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <title>World Dev</title>
+</head>
+<body>
+    <header id="menu">
+        <h1 id="nome">Lívya Victória</h1>
+        <div class="menu-container"> <!-- Container para os itens do menu e o ícone -->
+            <ul>
+                <li data-tooltip="Curso Sistemas de Informaçao no Centro Universitário Multivix e estou no 5°período">Formação Acadêmica</li>
+                <li data-tooltip="Estudante de TI do Espírito Santo, apaixonada por tecnologia e sempre buscando novos desafios">Sobre Mim</li>
+                <li data-tooltip="Lógica de Programação, C, JavaScript, HTML5, CSS3, Pacote Office">Habilidades</li>
+            </ul>
+            <div id="hamburguer">
+                <img src="img/hamburguer.svg" alt="Menu">
+            </div>
+        </div>
+    </header>
+    <div id="menu-lateral-externo">
+        <div id="menu-lateral">
+            <div class="redes">
+                <p id="texto-barra">Redes Sociais</p>
+                <a href="https://www.instagram.com/livyavictoriaa?igsh=MWd0eTh3ZGF3M2E4dA==" target="_blank">
+                    <img src="img/instagram-colorido.png" alt="Icone Instagram"> 
+                </a><br>
+                <a href="https://www.linkedin.com/in/livya-ferreira-9043ab309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"> 
+                    <img src="img/linkedin.png" alt="Icone LinkedIn">
+                </a><br>
+                <a href="mailto:livyaferreira367@gmail.com">
+                    <img src="img/GMail_icon-icons.com_76886.png" alt="Icone Gmail">
+                </a><br>
+                <a href="https://github.com/livyavictoria03" target="_blank"> 
+                    <img src="img/github.png" alt="Icone GitHub">
+                </a>
+            </div>
+            <button id="fechar-menu">Fechar</button>   
+        </div>
+    </div>
+    <main class="conteudo">
+        <div class="foto">
+            <img src="img/imagem-fundo.jpg" alt="Computador com códigos">
+        </div>
+        <div class="texto">
+            <h2>Olá, seja bem-vindo(a) ao meu portifólio!</h2>
+            <p>Explore meu portifólio para me conhecer mais!</p>
+        </div>
+        <div id="aleatorio">
+            <h2>Curiosidades Tecnológicas</h2>
+            <p>
+            1. O primeiro computador, o ENIAC, foi criado em 1945 e ocupava uma sala inteira, pesando cerca de 30 toneladas.<br>
+            2. A primeira mensagem de e-mail foi enviada por Ray Tomlinson em 1971, antes mesmo da invenção da web.<br>
+            3. O primeiro site da história, criado por Tim Berners-Lee, ainda está ativo e pode ser acessado no endereço original: <a href="http://info.cern.ch" target="_blank">info.cern.ch</a>.<br>
+            4. A quantidade de transistores em um chip de computador tem aumentado exponencialmente, seguindo a Lei de Moore, que prevê que esse número dobra a cada dois anos.<br>
+            5. O primeiro videogame, chamado "Tennis for Two", foi criado em 1958 e era jogado em um osciloscópio.<br>
+            6. A impressão 3D, que hoje é usada em diversas indústrias, foi inventada em 1983 por Chuck Hull.<br>
+            7. O smartphone mais vendido de todos os tempos é o iPhone 6, com mais de 220 milhões de unidades vendidas desde seu lançamento em 2014.<br>
+            8. O Facebook, uma das redes sociais mais populares do mundo, foi originalmente criado como uma plataforma exclusiva para estudantes da Harvard University em 2004.<br>
+            9. Em 2021, a quantidade de dados gerados globalmente atingiu 79 zettabytes, o que equivale a 79 trilhões de gigabytes.<br>
+            10. A primeira câmera digital foi inventada em 1975 por um engenheiro da Kodak chamado Steven Sasson. Ela pesava cerca de 3,6 kg e tinha uma resolução de 0,01 megapixels.<br>
+            </p>
+            
+        </div>
+    </main>
+    <footer id="footer">
+        <div id="formulario">
+            <form action="https://formspree.io/f/mpwzzokl" method="POST">
+                <input type="text" name="name" id="name" placeholder="Nome Completo" required>
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+                <textarea name="msg" id="msg" placeholder="Digite aqui sua mensagem..." required></textarea>
+                <input type="submit" value="ENVIAR">
+            </form>
+        </div>
+        <span id="data"></span>&copy;Lívya Victória
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>
